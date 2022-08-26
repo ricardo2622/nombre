@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
 
+*{
+    box-sizing: border-box;
+}
 body {
-    margin: 0px;
+    margin-top: 150px;
+    background-image: url("travel.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+
 
 }
 
@@ -12,8 +20,8 @@ body {
     height: 80pt;
     top: 0;
     bottom: 0;
-
     filter: url(#threshold) blur(0.6px);
+    
 }
 
 #text1,
